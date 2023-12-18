@@ -24,7 +24,7 @@ next_return = datetime.now().timestamp() + 30*3600 #the time to return the next 
 current_path = os.getcwd() #the path of this python file
 destination_path = current_path + '\\' + 'last_24hrs' #the path of the 24 hrs foleder
 
-last = 20 #change this to change the time of modification from 24 hrs to anything. The unit is second.
+last = 24*3600 #change this to change the time of modification from 24 hrs to anything. The unit is second.
 
 tracked = [] #the next file which is going to be returned back to its original path
 go = True #when this is true then the return to original path function has a file to return back to its original path and if it is false then the 24 hrs folder is empty and the function will stop trying to return files back to origin
