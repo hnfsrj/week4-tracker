@@ -1,0 +1,3 @@
+The tracker tracks and file inside directories under the directory where the tracker is located in. When run it collects files which have been modified or create before 24 hrs ( the time can be modified in the code) and move them to last_24hrs folder. When it's been more than 24 hrs since the modification of the files they get moved back to their orginal path.
+
+The calculations module can be used to do some basic or power calculations.
